@@ -20,7 +20,7 @@ export default function SearchResults({ results }) {
               </h2>
             </a>
           </div>
-          <p className=" font-sans text-black-700 line-clamp-2">{result.snippet}</p>
+          <p className=" font-sans text-gray-700 line-clamp-2">{result.snippet}</p>
         </div>
       ))}
 

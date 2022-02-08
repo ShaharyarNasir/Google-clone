@@ -6,9 +6,9 @@ function Footer() {
         <div className="px-8 py-2 ">
             <p>Pakistan</p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-4 grid-flow-row-dense">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-4 grid-flow-row-dense my-4  pt-4">
             <div className="flex justify-center items-center md:col-span-2 lg:col-span-1 lg:col-start-2">
-               <GlobeIcon className="h-5 mr-1 text-green-700"/> Google Clone by <a href="https://github.com/ShaharyarNasir">Sherry</a>
+               <GlobeIcon className="h-5 mr-1 text-green-700"/> <p> Google Clone by <a href="https://github.com/ShaharyarNasir"  className="hover:text-gray-800"> Shaharyar</a></p>
             </div>
             <div className="flex justify-center space-x-8 whitespace-nowrap md:justify-self-start">
                 <p>Advertising</p>

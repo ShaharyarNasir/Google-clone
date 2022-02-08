@@ -7,10 +7,16 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
 
-  darkMode: false, 
   content: [],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        serif: ['Montserrat', 'serif'],
+        sans: ['Graphik', 'sans-serif'],
+
+    },
   },
   plugins: [ require('@tailwindcss/line-clamp')], 
+}
+
 }

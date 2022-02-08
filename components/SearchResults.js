@@ -2,8 +2,8 @@ import PaginationButtons from "../components/PaginationButtons";
 
 export default function SearchResults({ results }) {
   return (
-    <div className="mx-auto w-full px-3 sm:pl-[5%] md:pl-[14%] lg:pl-52">
-      <p className="text-gray-500 text-md mb-5 mt-3">
+    <div className=" bold mx-auto w-full px-3 sm:pl-[5%] md:pl-[14%] lg:pl-52">
+      <p className="text-gray-600 text-md mb-5 mt-3">
         About {results.searchInformation?.formattedTotalResults} results (
         {results.searchInformation?.formattedSearchTime} seconds)
       </p>
@@ -20,7 +20,7 @@ export default function SearchResults({ results }) {
               </h2>
             </a>
           </div>
-          <p className="line-clamp-2">{result.snippet}</p>
+          <p className=" font-sans text-black-700 line-clamp-2">{result.snippet}</p>
         </div>
       ))}
 
